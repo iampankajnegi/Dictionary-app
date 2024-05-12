@@ -44,13 +44,15 @@ const Dictionaryapp = () => {
 
   return (
     <div>
+
+        <h1>Dictionary App</h1>
         <input type="text"  value={searchTerm} onChange={handleChange}/>
 
           <button onClick={handleClick}>Search</button>
 
           
 
-          <h1>Definition:</h1> {searchResult && <p>{searchResult}</p>}
+          <h3>Definition:</h3> {searchResult && <p>{searchResult}</p>}
     </div>
   )
 }
