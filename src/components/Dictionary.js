@@ -50,7 +50,7 @@ const Dictionaryapp = () => {
 
           
 
-          <h1>Definition :</h1> {searchResult && <p>{searchResult}</p>}
+          <h1>Definition:</h1> {searchResult && <p>{searchResult}</p>}
     </div>
   )
 }
