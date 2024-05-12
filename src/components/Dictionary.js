@@ -46,7 +46,7 @@ const Dictionaryapp = () => {
     <div>
 
         <h1>Dictionary App</h1>
-        <input type="text"  value={searchTerm} onChange={handleChange}/>
+        <input type="text"  value={searchTerm} onChange={handleChange} placeholder='Search for a word...'/>
 
           <button onClick={handleClick}>Search</button>
 
