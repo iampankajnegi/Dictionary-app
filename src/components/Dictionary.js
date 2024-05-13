@@ -6,7 +6,7 @@ const dictionary ={
     
 
 
-      React: "A JavaScript library for building user interfaces." ,
+      React: " to contain A JavaScript library for building user interfaces." ,
 
     Component: "A reusable building block in React." ,
 
@@ -52,7 +52,7 @@ const Dictionaryapp = () => {
 
           
 
-          <h3>Definition:</h3> {searchResult && <div> <p>{searchResult}</p> </div>}
+          <h3>Definition:</h3> {searchResult &&  <p>{searchResult}</p>}
     </div>
   )
 }
