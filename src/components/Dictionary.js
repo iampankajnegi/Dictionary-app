@@ -52,7 +52,7 @@ const Dictionaryapp = () => {
 
           
 
-          <h3>Definition:</h3> {searchResult && <p>{searchResult}</p>}
+          <h3>Definition:</h3> {searchResult && <div> <p>{searchResult}</p> </div>}
     </div>
   )
 }
