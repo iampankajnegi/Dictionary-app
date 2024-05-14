@@ -55,7 +55,7 @@ const Dictionaryapp = () => {
           <h3>Definition:</h3> 
           
 
-         {searchResult}
+         {searchResult && {searchResult}}
     
     </div>
   )
