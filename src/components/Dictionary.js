@@ -31,9 +31,9 @@ const Dictionaryapp = () => {
     }
 
      const handleClick =()=>{
-         const  lowerCaseTerm = searchTerm.toLowerCase();
-         if(dictionary[lowerCaseTerm]){
-            setSearchResult(dictionary[lowerCaseTerm])
+         
+         if(dictionary[searchTerm]){
+            setSearchResult(dictionary[searchTerm])
          }
 
          else{
