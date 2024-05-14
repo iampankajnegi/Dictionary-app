@@ -1,11 +1,11 @@
 
 import './App.css';
-import Dictionaryapp from './components/Dictionary';
+import DictionaryApp from './components/Dictionary';
 
 function App() {
   return (
     <div className="App">
-      <Dictionaryapp/>
+      <DictionaryApp/>
     </div>
   );
 }
