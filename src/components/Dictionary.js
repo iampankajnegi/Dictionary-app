@@ -55,10 +55,10 @@ const Dictionaryapp = () => {
           <h3>Definition:</h3> 
           
 
-         {searchResult && {searchResult}}
+         {searchResult && <p>{searchResult}</p>}
     
-    </div>
-  )
-}
+    </div>  
+  )  
+}  
 
 export default Dictionaryapp
