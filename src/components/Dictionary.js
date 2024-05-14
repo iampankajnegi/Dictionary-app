@@ -31,9 +31,9 @@ const Dictionaryapp = () => {
     }
 
      const handleClick =()=>{
-
-         if(dictionary[searchTerm]){
-            setSearchResult(dictionary[searchTerm.toLowerCase()])
+         const  lowerCaseTerm = searchTerm.toLowerCase();
+         if(dictionary[lowerCaseTerm]){
+            setSearchResult(dictionary[lowerCaseTerm])
          }
 
          else{
@@ -55,7 +55,7 @@ const Dictionaryapp = () => {
           <h3>Definition:</h3> 
           
 
-         <p> {searchResult && <p>{searchResult}</p>}</p>
+         <p>{searchResult}</p>
     
     </div>
   )
