@@ -33,7 +33,7 @@ const Dictionaryapp = () => {
      const handleClick =()=>{
 
          if(dictionary[searchTerm]){
-            setSearchResult(dictionary[searchTerm])
+            setSearchResult(dictionary[searchTerm.toLowerCase()])
          }
 
          else{
